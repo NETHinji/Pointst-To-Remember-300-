@@ -1,0 +1,16 @@
+Delegate
+
+
+1)Holds the reference to a method
+2)The reference to a method can be changed at runtime
+3)Derived from the System.Delegate
+4)Syntax
+<access_specifier> delegate <return_type> <delegate_name> (<parameter_list>)
+5)Multicast deligate
+Delegate objects can be composed using the "+" operator
+6)Pass Delegate as a Parameter
+A method can have a parameter of a delegate type and can invoke the delegate parameter.
+7)Delegates can be invoke like a normal function or using Invoke() method.
+8)Encapsulating the method's call from caller
+9)Improves the performance of application
+10)Delegates can be used without parameters or with parameter list
