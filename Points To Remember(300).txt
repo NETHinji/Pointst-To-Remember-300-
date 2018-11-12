@@ -14,3 +14,12 @@ A method can have a parameter of a delegate type and can invoke the delegate par
 8)Encapsulating the method's call from caller
 9)Improves the performance of application
 10)Delegates can be used without parameters or with parameter list
+
+
+Lambda Expression
+
+
+1)Anonymous functions are created.
+2)Lambda expressions use the lambda operator =>, that can be read as “goes to” or “becomes”. 
+3)The lambda operator => divides a lambda expression into two parts. The left side is the input parameter and the right side is the lambda body.
+4)Usually lambda expressions are used as predicates or instead of delegates (a type that references a method).
